@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000; /* Black background */
+            color: #fff; /* White text */
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #acacac; /* off white color */
+            margin-bottom: 20px;
+            text-shadow: 0 0 10px black; /*  glow effect */
+        }
+        .project-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px; /* Space between projects */
+        }
+        .project {
+            background: #111; /*  backgrund for project cards */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(255, 255, 255, 0.1);
+            transition: transform 0.2s, box-shadow 0.2s; /* Animation effect */
+        }
+        .project:hover {
+            transform: translateY(-5px); /* Lift effect - hower */
+            box-shadow: 0 4px 20px rgba(255, 142, 255, 0.5); /* shadow on hover */
+        }
+        h2 {
+            color: #e298ff; /* Neon pink */
+            margin-bottom: 10px;
+        }
+        h3 {
+            color: #ffcc00; /* Neon yellow */
+            margin-top: 10px;
+        }
+        .tech-stack {
+            background-color: #222; /* thoda light then dark gray color*/
+            border-left: 5px solid #e298ff; /*  left border */
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+        hr {
+            border-top: 2px solid #acacac; /*  horizontal line */
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            .project-container {
+                padding: 0 10px; /* padding on smaller screens */
+            }
+        }
+    </style>
+</head>
+<body>
+
+<h1>PROJECTS</h1>
+
+<div class="project-container">
+    <div class="project">
+        <h2>Climate Forecasting and Crop Prediction Prototype</h2>
+        <p><strong>Duration:</strong> October 2023 – Present</p>
+        <p><strong>Description:</strong> Developing an AI system by integrating seasonal weather patterns and crop conditioning models to predict sustainable yield from the farm in the given climatic conditions. This model supports agricultural decision-making, potentially leading to a reduction in crop wastage. Observed 98.29% accuracy.</p>
+        <p><strong>Technologies Used:</strong></p>
+        <div class="tech-stack">
+            Machine Learning, Python, SQLite, BeautifulSoup, Flask, FastAPI, TensorFlow, Meteorological Data Integration, GIS (Geographic Information System), web and mobile application development, data visualization tool (PowerBI), Git, etc.
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="project">
+        <h2>College Website Audio Assistant Model</h2>
+        <p><strong>Duration:</strong> Jan 2023 – Jun 2023</p>
+        <p><strong>Description:</strong> Designed an audio assistant model for the college website for hands-free information access.</p>
+        <p><strong>Technologies Used:</strong></p>
+        <div class="tech-stack">
+            NLP, Speech Recognition APIs, HTML, CSS, JavaScript, Git, User Testing and Feedback Analysis, etc.
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
